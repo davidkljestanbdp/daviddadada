@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	max-width: 600px;
+	margin: 0 auto;
+	height: auto;
+	padding: 20px;
+	background-color: yellow;
+	.par{
+		color: red;
+		font-weight: bold;
+		font-family: Lato, sans-serif;
+		.primary{
+			display: block;
+			text-decoration: none;
+			color: blue;
+			font-weight: bold;
+			font-family: 'Arial';
+		}
+		.primary:hover{
+			background-color: silver;
+			color: white;
+		}
+	}
+
+}
